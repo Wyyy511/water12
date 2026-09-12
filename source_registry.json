@@ -1,0 +1,47 @@
+{
+  "registry_version": "2026-09-12-v1",
+  "principle": "只登记项目材料已经确认的来源；缺失的原始链接保持 pending，不由 Agent 编造。",
+  "sources": {
+    "hazard_ws_sv": {
+      "source_org": "World Resources Institute (WRI)",
+      "source_name": "Aqueduct 4.0 Water Risk Atlas",
+      "method_title": "Aqueduct 4.0: Updated Decision-Relevant Global Water Risk Indicators",
+      "method_doi": "10.46830/writn.23.00061",
+      "original_url": "https://github.com/wri/Aqueduct40/blob/master/data_dictionary_water-risk-atlas.md",
+      "access_note": "项目 B 组材料登记为 Aqueduct 4.0 Baseline；当前节点值仍以项目冻结主数据表为单一真值源。"
+    },
+    "hazard_dr": {
+      "source_org": "SPEI Global Database / Vicente-Serrano et al.",
+      "source_name": "Standardized Precipitation Evapotranspiration Index (SPEI)",
+      "method_doi": "10.1175/2009JCLI2909.1",
+      "original_url": null,
+      "access_note": "项目材料登记 SPEI v2.0，参考期 1979–2019；精确数据库下载链接待 B 组最终来源表确认。"
+    },
+    "material_bwd": {
+      "source_org": "Mekonnen & Hoekstra",
+      "source_name": "The green, blue and grey water footprint of crops and derived crop products",
+      "method_doi": "10.5194/hess-15-1577-2011",
+      "original_url": "https://doi.org/10.5194/hess-15-1577-2011",
+      "access_note": "用于材料蓝水足迹/依赖的研究证据；项目参数仍以 C 组冻结证据表为准。"
+    },
+    "sugarcane_vulnerability": {
+      "source_org": "Peer-reviewed literature used by C group",
+      "source_name": "Sugarcane water relations and water-stress evidence",
+      "method_doi": "10.1017/S0014479710000645",
+      "original_url": "https://doi.org/10.1017/S0014479710000645",
+      "additional_dois": [
+        "10.1093/jxb/ers251",
+        "10.1016/j.agwat.2020.106549",
+        "10.1016/j.agwat.2020.106042"
+      ],
+      "access_note": "用于甘蔗 DYS/CTS 等材料脆弱性证据；OA=0.75 仍是 S 类演示假设。"
+    },
+    "future_projection": {
+      "source_org": "World Resources Institute (WRI)",
+      "source_name": "Understanding Aqueduct's Future Projections",
+      "method_doi": null,
+      "original_url": "https://www.wri.org/aqueduct/help-center/understanding-future-projections",
+      "access_note": "当前 MVP 主演示不把未来情景作为默认验收路径。"
+    }
+  }
+}

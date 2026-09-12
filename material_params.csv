@@ -1,0 +1,4 @@
+﻿material,param_bwd,param_dys_base,param_dys_low,param_dys_high,param_cts,param_oa_base,bwd_confidence,dys_confidence,cts_confidence,oa_confidence,bwd_type,dys_type,cts_type,oa_type,source_ref
+甘蔗,0.75,0.625,0.25,1.0,1.0,0.75,Medium,High,High,Low,P,P/A,P/A,S,C部分材料水风险参数初步证据表 / baseline_water_risk_v2.py
+甜菜,0.8,0.625,0.25,1.0,1.0,0.75,Medium,High,High,Low,P,P/A,P/A,S,C部分材料水风险参数初步证据表 / baseline_water_risk_v2.py
+大豆,0.85,0.75,0.5,1.0,1.0,0.75,Medium,High,High,Low,P,P/A,P/A,S,C部分材料水风险参数初步证据表 / baseline_water_risk_v2.py

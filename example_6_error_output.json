@@ -1,0 +1,27 @@
+{
+  "run_id": "R20260909-006",
+  "input_hash": "067bee30def0f0b0",
+  "enterprise_id": "COMPANY_DEMO",
+  "data_version": null,
+  "engine_version": "baseline-engine-1.2",
+  "formula_version": "path-matching-v1.1",
+  "parameter_version": "theta-equal-1/3;dys-map-v1;g-map-v1",
+  "theta": {
+    "WS": 0.3333333333333333,
+    "DR": 0.3333333333333333,
+    "SV": 0.3333333333333333
+  },
+  "calculated_at": "2026-09-09T09:39:06Z",
+  "status": "error",
+  "calculation_mode": "none",
+  "errors": [
+    "theta 三项之和必须=1（当前=1.2000）"
+  ],
+  "materials": [],
+  "warnings": [],
+  "assumptions": [],
+  "source_refs": [],
+  "missing_fields": [],
+  "proxy_fields": [],
+  "excluded_nodes": []
+}

@@ -1,0 +1,52 @@
+﻿field_id,category,field_name,field_name_cn,data_type,unit,time_granularity,spatial_granularity,supply_status,key_field,default_data_status,proxy_allowed,confidence_rule,provider_hint,notes
+LOC-001,地点标准化,node_id,节点唯一标识,string,-,静态,节点级,可提供,是,V,否,1.00,宋梓铭/数据层,主键，稳定不变
+LOC-002,地点标准化,country_iso3,国家 ISO3166-1 alpha-3,string,-,静态,国家级,可提供,是,V,否,1.00,宋梓铭/数据层,可核验标准
+LOC-003,地点标准化,region,一级行政区/区域名,string,-,静态,区域级,可提供,是,V,否,0.95,宋梓铭/数据层,
+LOC-004,地点标准化,basin,流域名,string,-,静态,流域级,可提供,是,V,否,0.95,宋梓铭/数据层,
+LOC-005,地点标准化,pfaf_id,Pfafstetter 流域编码,string,-,静态,流域级,条件提供,否,V,否,-,宋梓铭/数据层,需下载 HydroBASINS，见 GAP-002
+LOC-006,地点标准化,geo_level,空间层级,enum,-,静态,节点级,可提供,是,V,否,1.00,宋梓铭/数据层,country/region/basin/node
+LOC-007,地点标准化,geo_name_std,标准地点名,string,-,静态,节点级,可提供,是,V,否,0.95,宋梓铭/数据层,
+HAZ-001,Baseline Hazard,WS,基准水资源压力,float,无量纲(0-5),基准期,节点级,条件提供,是,S,是,0.70,宋梓铭/数据层,正式版由 SRC-AQUEDUCT 替换
+HAZ-002,Baseline Hazard,SV,季节变异度,float,无量纲(0-5),基准期,节点级,条件提供,是,S,是,0.70,宋梓铭/数据层,同上
+HAZ-003,Baseline Hazard,DR,干旱风险,float,无量纲(0-5),基准期,节点级,条件提供,是,S,是,0.70,宋梓铭/数据层,同上
+HAZ-004,Baseline Hazard,hazard_period,参考期,string,-,静态,节点级,可提供,是,V,否,1.00,宋梓铭/数据层,必须随值返回
+HAZ-005,Baseline Hazard,hazard_unit,指标单位,string,-,静态,节点级,可提供,是,V,否,1.00,宋梓铭/数据层,
+HAZ-006,Baseline Hazard,hazard_confidence,置信度口径,float,-,静态,节点级,可提供,是,V,否,1.00,宋梓铭/数据层,0-1，口径待 D 冻结
+PK-001,Peak-season,ws_monthly,逐月水资源压力,float,无量纲(0-5),月,节点×月份,条件提供,是,S,是,0.65,宋梓铭/数据层,
+PK-002,Peak-season,month,月份,int,1-12,月,节点×月份,可提供,是,V,否,1.00,宋梓铭/数据层,必须保留
+PK-003,Peak-season,ws_peak_month,峰值月份,int,1-12,月,节点级,可提供,是,A,否,0.80,宋梓铭/数据层,由月度曲线派生，派生规则需登记
+PK-004,Peak-season,ws_peak_value,峰值强度,float,无量纲(0-5),月,节点级,可提供,是,A,否,0.80,宋梓铭/数据层,
+PK-005,Peak-season,seasonality_index,季节集中度,float,无量纲,年,节点级,可提供,是,A,否,0.75,宋梓铭/数据层,变异系数口径
+FUT-001,Future,future_ws,未来水资源压力,float,无量纲(0-5),2030/2050/2080,节点×年份×情景,条件提供,是,S,是,0.40,宋梓铭/数据层,情景投影，不得冒充真实预测
+FUT-002,Future,future_sv,未来季节变异度,float,无量纲(0-5),2030/2050/2080,节点×年份×情景,条件提供,是,S,是,0.40,宋梓铭/数据层,同上
+FUT-003,Future,target_year,目标年份,int,年,年,节点×年份×情景,可提供,是,V,否,1.00,宋梓铭/数据层,
+FUT-004,Future,ssp_scenario,情景编号,enum,-,静态,节点×年份×情景,可提供,是,V,否,1.00,宋梓铭/数据层,SSP2-4.5 / SSP5-8.5
+FUT-005,Future,model_ensemble,模式集合说明,string,-,静态,节点×年份×情景,可提供,是,V,否,1.00,宋梓铭/数据层,
+EXT-001,Extreme drought,dr_ed,极端干旱频率,float,概率(0-1),基准期,节点级,条件提供,是,S,是,0.45,宋梓铭/数据层,阈值口径待冻结
+EXT-002,Extreme drought,spei_series,SPEI 序列,float,SPEI 指数,月,节点×月份,条件提供,否,S,否,0.45,宋梓铭/数据层,当前仅提供年度摘要，逐月待接入
+EXT-003,Extreme drought,spei_timescale,SPEI 时间尺度,enum,-,静态,节点级,可提供,是,V,否,1.00,宋梓铭/数据层,SPEI-3 / SPEI-12
+EXT-004,Extreme drought,drought_threshold,干旱阈值口径,string,-,静态,节点级,可提供,是,V,否,1.00,宋梓铭/数据层,如 SPEI<=-1.0
+EXP-001,采购 Exposure,enterprise_id,企业标识,string,-,静态,企业级,不可提供（须用户提供）,是,-,否,-,用户/F Agent,数据层不代填
+EXP-002,采购 Exposure,enterprise_name,企业名称,string,-,静态,企业级,不可提供（须用户提供）,是,-,否,-,用户/F Agent,
+EXP-003,采购 Exposure,material_id,材料标识,string,-,静态,材料级,不可提供（须用户提供）,是,-,否,-,用户/F Agent,
+EXP-004,采购 Exposure,supplier_node_id,供应节点,string,-,静态,企业×节点,不可提供（须用户提供）,是,-,否,-,用户/F Agent,
+EXP-005,采购 Exposure,W,采购数量/份额,float,随口径,年,企业×材料×节点,不可提供（须用户提供）,是,-,否,-,用户/F Agent,严禁用国家或行业均值替代
+EXP-006,采购 Exposure,W_unit,W 单位,string,-,静态,企业×材料×节点,不可提供（须用户提供）,是,-,否,-,用户/F Agent,
+EXP-007,采购 Exposure,U,Unknown 份额,float,随口径,年,企业×材料×节点,不可提供（须用户提供）,是,-,否,-,用户/F Agent,
+EXP-008,采购 Exposure,procurement_basis,采购口径,enum,-,静态,企业×材料×节点,不可提供（须用户提供）,是,-,否,-,用户/F Agent,采购量/采购份额
+EXP-009,采购 Exposure,procurement_year,采购年份,int,年,年,企业×材料×节点,不可提供（须用户提供）,是,-,否,-,用户/F Agent,
+EXP-010,采购 Exposure,node_failure_buffer,节点失效库存/替代能力,float,天,静态,企业×材料×节点,不可提供（须用户提供）,是,-,否,-,用户/F Agent,
+MAT-001,材料参数,BWD,蓝水需求量,float,m3/t,年,材料/材料×节点,待C批准,是,A,是,0.30,C 组,释义暂定，须 C 批准版本覆盖
+MAT-002,材料参数,DYS,干旱年敏感性系数,float,-,年,材料/材料×节点,待C批准,是,A,是,0.30,C 组,同上
+MAT-003,材料参数,CTS,冷却与处理用水占比,float,-,年,材料/材料×节点,待C批准,是,A,是,0.30,C 组,同上
+MAT-004,材料参数,OA,综合可得性系数,float,-,年,材料/材料×节点,待C批准,是,A,是,0.30,C 组,同上
+MAT-005,材料参数,mat_unit,参数单位,string,-,静态,材料级,待C批准,是,V,否,1.00,C 组,
+MAT-006,材料参数,mat_region_applicability,地区适用性,string,-,静态,材料×地区,待C批准,是,V,否,1.00,C 组,
+MAT-007,材料参数,mat_approval_version,C 批准版本号,string,-,静态,材料级,待C批准,是,V,否,1.00,C 组,未批准前返回 insufficient
+META-001,证据元数据,source_id,来源标识,string,-,静态,每字段,可提供,是,V,否,1.00,宋梓铭/数据层,原样透传
+META-002,证据元数据,source_locator,来源定位信息,string,-,静态,每字段,可提供,是,V,否,1.00,宋梓铭/数据层,URL/数据集内定位
+META-003,证据元数据,data_status,数据状态 V/P/A/S,enum,-,静态,每字段,可提供,是,V,否,1.00,宋梓铭/数据层,V 已核验/P 代理/A 假设/S 模拟
+META-004,证据元数据,is_proxy,是否代理,bool,-,静态,每字段,可提供,是,V,否,1.00,宋梓铭/数据层,
+META-005,证据元数据,proxy_rule_id,代理规则编号,string,-,静态,每字段,可提供,是,V,否,1.00,宋梓铭/数据层,is_proxy=是 时必填
+META-006,证据元数据,data_release_id,数据发布版本,string,-,静态,每字段,可提供,是,V,否,1.00,宋梓铭/数据层,版本化快照
+META-007,证据元数据,field_status,字段级状态,enum,-,静态,每字段,可提供,是,V,否,1.00,宋梓铭/数据层,exact/proxy/missing/conflict/invalid/demo

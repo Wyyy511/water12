@@ -1,0 +1,17 @@
+﻿node_id,material,enterprise,purchase_weight_W,unknown_share_U,confidence,data_type,source_ref,reference_period
+SC01,甘蔗,DEMO_A(制糖示范企业),0.25,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SC02,甘蔗,DEMO_A(制糖示范企业),0.1,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SC03,甘蔗,DEMO_A(制糖示范企业),0.45,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SC04,甘蔗,DEMO_A(制糖示范企业),0.12,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SC05,甘蔗,DEMO_A(制糖示范企业),0.04,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SC06,甘蔗,DEMO_A(制糖示范企业),0.04,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SB01,甜菜,DEMO_A(制糖示范企业),0.7,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SB02,甜菜,DEMO_A(制糖示范企业),0.15,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SB03,甜菜,DEMO_A(制糖示范企业),0.1,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SB04,甜菜,DEMO_A(制糖示范企业),0.05,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SB05,甜菜,DEMO_A(制糖示范企业),0.0,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SY01,大豆,DEMO_B(植物蛋白示范企业),0.65,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SY02,大豆,DEMO_B(植物蛋白示范企业),0.2,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SY03,大豆,DEMO_B(植物蛋白示范企业),0.1,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SY04,大豆,DEMO_B(植物蛋白示范企业),0.05,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025
+SY05,大豆,DEMO_B(植物蛋白示范企业),0.0,0.0,Low,A,B交DF v1.1 / 示范采购结构,2025

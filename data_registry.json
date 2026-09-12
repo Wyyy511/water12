@@ -1,0 +1,44 @@
+{
+  "project_name": "科技型农食企业上游供应链水风险管理研究",
+  "data_version": "2026-09-06-integrated-mvp",
+  "baseline_model": "路径匹配型 Baseline v2.0",
+  "scenario_model": "scenario_engine v2.0",
+  "sources": [
+    {
+      "category": "Hazard/Exposure",
+      "file": "B交DF(2).docx",
+      "status": "V/P/A",
+      "note": "16节点；采购权重为示范假设A"
+    },
+    {
+      "category": "Material parameters",
+      "file": "C部分材料水风险参数初步证据表(1).xlsx",
+      "status": "P/A/S",
+      "note": "OA=0.75仍为S类假设/Low confidence"
+    },
+    {
+      "category": "Baseline engine",
+      "file": "baseline_water_risk_v2(2).py",
+      "status": "deterministic",
+      "note": "当前PRWI口径与0907底稿一致"
+    },
+    {
+      "category": "Scenario engine",
+      "file": "scenario_engine.py",
+      "status": "deterministic",
+      "note": "四类压力测试"
+    },
+    {
+      "category": "Future WS/SV",
+      "file": "future_ws_sv.csv",
+      "status": "S demo",
+      "note": "必须明确标记为演示数据，不得写成真实未来预测"
+    },
+    {
+      "category": "Monthly WS / Extreme drought",
+      "file": "monthly_ws.csv / extreme_drought.csv",
+      "status": "V/P",
+      "note": "B岗补充数据包2 v2.0"
+    }
+  ]
+}

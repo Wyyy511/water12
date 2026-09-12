@@ -1,0 +1,377 @@
+{
+  "run_id": "R20260909-004",
+  "enterprise_id": "COMPANY_DEMO",
+  "data_version": "water-data-v1.1",
+  "materials": [
+    {
+      "material": "甘蔗",
+      "U": 0.0,
+      "nodes": [
+        {
+          "node_id": "SC01",
+          "node_name": "广西崇左-江州-北海",
+          "spatial_level": "子流域/地级",
+          "country": "",
+          "pfaf_id": "",
+          "reference_period": 2025,
+          "W": 0.25,
+          "WS": null,
+          "WS_unit": "aqueduct_score_0_5",
+          "SV": 3.58,
+          "SV_unit": "aqueduct_score_0_5",
+          "DR": 0.3,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "field_meta": {
+            "W": {
+              "source_ref": "DEMO_A 示范采购结构(A类假设)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "WS": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Unknown"
+            },
+            "SV": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "High"
+            },
+            "DR": {
+              "source_ref": "SPEI-6 月度序列 (1979-2019), g(x)冻结映射",
+              "data_status": "V",
+              "confidence": "High"
+            },
+            "BWD": {
+              "source_ref": "演示假设值(待C岗正式参数)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "DYS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "CTS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "OA": {
+              "source_ref": "演示假设值(待C岗作物历)",
+              "data_status": "A",
+              "confidence": "Low"
+            }
+          },
+          "BWD": 0.75,
+          "OA": 0.8
+        },
+        {
+          "node_id": "SC02",
+          "node_name": "云南梁河",
+          "spatial_level": "地级",
+          "country": "",
+          "pfaf_id": "",
+          "reference_period": 2025,
+          "W": 0.1,
+          "WS": 3.24,
+          "WS_unit": "aqueduct_score_0_5",
+          "SV": 3.12,
+          "SV_unit": "aqueduct_score_0_5",
+          "DR": 0.35,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "field_meta": {
+            "W": {
+              "source_ref": "DEMO_A 示范采购结构(A类假设)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "WS": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "High"
+            },
+            "SV": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "High"
+            },
+            "DR": {
+              "source_ref": "SPEI-6 月度序列 (1979-2019), g(x)冻结映射",
+              "data_status": "V",
+              "confidence": "High"
+            },
+            "BWD": {
+              "source_ref": "演示假设值(待C岗正式参数)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "DYS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "CTS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "OA": {
+              "source_ref": "演示假设值(待C岗作物历)",
+              "data_status": "A",
+              "confidence": "Low"
+            }
+          },
+          "BWD": 0.7,
+          "OA": 0.75
+        },
+        {
+          "node_id": "SC03",
+          "node_name": "巴西中南部",
+          "spatial_level": "州级Admin1",
+          "country": "",
+          "pfaf_id": "",
+          "reference_period": 2025,
+          "W": 0.45,
+          "WS": 2.85,
+          "WS_unit": "aqueduct_score_0_5",
+          "SV": 2.64,
+          "SV_unit": "aqueduct_score_0_5",
+          "DR": 0.25,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "field_meta": {
+            "W": {
+              "source_ref": "DEMO_A 示范采购结构(A类假设)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "WS": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "SV": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "DR": {
+              "source_ref": "SPEI-6 月度序列 (1979-2019), g(x)冻结映射",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "BWD": {
+              "source_ref": "演示假设值(待C岗正式参数)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "DYS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "CTS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "OA": {
+              "source_ref": "演示假设值(待C岗作物历)",
+              "data_status": "A",
+              "confidence": "Low"
+            }
+          },
+          "BWD": 0.65,
+          "OA": 0.7
+        },
+        {
+          "node_id": "SC04",
+          "node_name": "泰国东北部",
+          "spatial_level": "州级Admin1",
+          "country": "",
+          "pfaf_id": "",
+          "reference_period": 2025,
+          "W": 0.12,
+          "WS": 3.51,
+          "WS_unit": "aqueduct_score_0_5",
+          "SV": 3.75,
+          "SV_unit": "aqueduct_score_0_5",
+          "DR": 0.28,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "field_meta": {
+            "W": {
+              "source_ref": "DEMO_A 示范采购结构(A类假设)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "WS": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "SV": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "DR": {
+              "source_ref": "SPEI-6 月度序列 (1979-2019), g(x)冻结映射",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "BWD": {
+              "source_ref": "演示假设值(待C岗正式参数)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "DYS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "CTS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "OA": {
+              "source_ref": "演示假设值(待C岗作物历)",
+              "data_status": "A",
+              "confidence": "Low"
+            }
+          },
+          "BWD": 0.7,
+          "OA": 0.65
+        },
+        {
+          "node_id": "SC05",
+          "node_name": "古巴中部",
+          "spatial_level": "省级",
+          "country": "",
+          "pfaf_id": "",
+          "reference_period": 2025,
+          "W": 0.04,
+          "WS": 3.06,
+          "WS_unit": "aqueduct_score_0_5",
+          "SV": 2.91,
+          "SV_unit": "aqueduct_score_0_5",
+          "DR": 0.22,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "field_meta": {
+            "W": {
+              "source_ref": "DEMO_A 示范采购结构(A类假设)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "WS": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "SV": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "DR": {
+              "source_ref": "SPEI-6 月度序列 (1979-2019), g(x)冻结映射",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "BWD": {
+              "source_ref": "演示假设值(待C岗正式参数)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "DYS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "CTS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "OA": {
+              "source_ref": "演示假设值(待C岗作物历)",
+              "data_status": "A",
+              "confidence": "Low"
+            }
+          },
+          "BWD": 0.6,
+          "OA": 0.6
+        },
+        {
+          "node_id": "SC06",
+          "node_name": "澳大利亚昆士兰",
+          "spatial_level": "州级Admin1",
+          "country": "",
+          "pfaf_id": "",
+          "reference_period": 2025,
+          "W": 0.04,
+          "WS": 4.08,
+          "WS_unit": "aqueduct_score_0_5",
+          "SV": 2.37,
+          "SV_unit": "aqueduct_score_0_5",
+          "DR": 0.42,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "field_meta": {
+            "W": {
+              "source_ref": "DEMO_A 示范采购结构(A类假设)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "WS": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "SV": {
+              "source_ref": "WRI Aqueduct 4.0 Baseline Annual (1979-2019)",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "DR": {
+              "source_ref": "SPEI-6 月度序列 (1979-2019), g(x)冻结映射",
+              "data_status": "V",
+              "confidence": "Medium"
+            },
+            "BWD": {
+              "source_ref": "演示假设值(待C岗正式参数)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "DYS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "CTS": {
+              "source_ref": "演示评分(待C岗复核)",
+              "data_status": "A",
+              "confidence": "Low"
+            },
+            "OA": {
+              "source_ref": "演示假设值(待C岗作物历)",
+              "data_status": "A",
+              "confidence": "Low"
+            }
+          },
+          "BWD": 0.8,
+          "OA": 0.85
+        }
+      ],
+      "material_params": {
+        "DYS": 0.5,
+        "CTS": 1.0
+      }
+    }
+  ]
+}

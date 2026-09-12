@@ -1,0 +1,17 @@
+﻿node_id,material,node_name,pfaf_id,ws_score,sv_score,dr,data_type,confidence,source_ref,reference_period
+SC01,甘蔗,广西崇左-江州-北海,pfaf_1123,3.72,3.58,0.3,V,High,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SC02,甘蔗,云南梁河,pfaf_1156,3.24,3.12,0.35,V,High,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SC03,甘蔗,巴西中南部(圣保罗/米纳斯吉拉斯),pfaf_5214,2.85,2.64,0.25,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SC04,甘蔗,泰国东北部(呵叻/孔敬),pfaf_3207,3.51,3.75,0.28,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SC05,甘蔗,古巴中部(马坦萨斯),pfaf_5602,3.06,2.91,0.22,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SC06,甘蔗,澳大利亚昆士兰北部,pfaf_6308,4.08,2.37,0.42,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SB01,甜菜,新疆新源-昭苏,pfaf_2104,4.23,2.04,0.55,V,High,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SB02,甜菜,内蒙古河套(巴彦淖尔),pfaf_2207,3.87,2.46,0.48,V,High,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SB03,甜菜,黑龙江齐齐哈尔,pfaf_2301,2.52,2.73,0.32,V,High,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SB04,甜菜,河北张家口(坝上),pfaf_2115,3.36,2.58,0.41,V,High,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SB05,甜菜,甘肃张掖(河西走廊),pfaf_2122,4.01,2.15,0.52,V,High,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SY01,大豆,巴西马托格罗索州,pfaf_5227,2.31,2.28,0.2,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SY02,大豆,美国中西部(爱荷华/伊利诺伊),pfaf_7103,3.04,2.85,0.27,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SY03,大豆,阿根廷潘帕斯(布宜诺斯艾利斯),pfaf_5302,2.47,2.41,0.23,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SY04,大豆,加拿大萨斯喀彻温省,pfaf_7205,2.03,2.17,0.18,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019
+SY05,大豆,俄罗斯远东(阿穆尔/滨海边疆),pfaf_4108,2.68,2.62,0.24,P,Medium,B交DF v1.1 / baseline_water_risk_v2.py,1979-2019

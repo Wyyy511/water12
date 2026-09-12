@@ -1,0 +1,77 @@
+{
+  "run_id": "R20260909-004",
+  "input_hash": "100d2084bd6704dc",
+  "enterprise_id": "COMPANY_DEMO",
+  "data_version": "water-data-v1.1",
+  "engine_version": "baseline-engine-1.2",
+  "formula_version": "path-matching-v1.1",
+  "parameter_version": "theta-equal-1/3;dys-map-v1;g-map-v1",
+  "theta": {
+    "WS": 0.3333333333333333,
+    "DR": 0.3333333333333333,
+    "SV": 0.3333333333333333
+  },
+  "calculated_at": "2026-09-09T09:39:06Z",
+  "status": "insufficient",
+  "calculation_mode": "unscored",
+  "materials": [
+    {
+      "material": "甘蔗",
+      "U": 0.0,
+      "procurement_coverage": 0.75,
+      "scored_coverage": null,
+      "unknown_share": 0.0,
+      "nodes": [],
+      "missing_fields": [
+        {
+          "node_id": "SC01",
+          "missing": [
+            "WS"
+          ]
+        }
+      ],
+      "proxy_fields": [],
+      "excluded_nodes": [
+        {
+          "node_id": "SC01",
+          "reason": "critical_field_missing"
+        }
+      ],
+      "warnings": [
+        "关键字段缺失，本材料不生成正式 R/C/PRWI（Unscored）"
+      ],
+      "assumptions": [],
+      "status": "insufficient",
+      "calculation_mode": "unscored",
+      "PRWI": null,
+      "PRWI_lower": null,
+      "PRWI_upper": null
+    }
+  ],
+  "missing_fields": [
+    {
+      "node_id": "SC01",
+      "missing": [
+        "WS"
+      ]
+    }
+  ],
+  "proxy_fields": [],
+  "excluded_nodes": [
+    {
+      "node_id": "SC01",
+      "reason": "critical_field_missing"
+    }
+  ],
+  "warnings": [
+    "甘蔗: insufficient，正式核心值未生成"
+  ],
+  "assumptions": [],
+  "source_refs": [],
+  "summary": {
+    "materials_total": 1,
+    "materials_success": 0,
+    "materials_partial": 0,
+    "materials_insufficient": 1
+  }
+}

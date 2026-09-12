@@ -1,0 +1,37 @@
+{
+  "run_id": "R20260909-005",
+  "input_hash": "71a8405f77d6bcfc",
+  "enterprise_id": "COMPANY_DEMO",
+  "data_version": "water-data-v1.1",
+  "engine_version": "baseline-engine-1.2",
+  "formula_version": "path-matching-v1.1",
+  "parameter_version": "theta-equal-1/3;dys-map-v1;g-map-v1",
+  "theta": {
+    "WS": 0.3333333333333333,
+    "DR": 0.3333333333333333,
+    "SV": 0.3333333333333333
+  },
+  "calculated_at": "2026-09-09T09:39:06Z",
+  "status": "conflict",
+  "calculation_mode": "none",
+  "conflicts": [
+    {
+      "material": "甘蔗",
+      "node_id": "SC03",
+      "field": "W",
+      "candidates": [
+        0.45,
+        0.38
+      ]
+    }
+  ],
+  "materials": [],
+  "warnings": [
+    "存在未解决的数据冲突，已停止计算，等待人工确认"
+  ],
+  "assumptions": [],
+  "source_refs": [],
+  "missing_fields": [],
+  "proxy_fields": [],
+  "excluded_nodes": []
+}

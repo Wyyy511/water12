@@ -1,0 +1,11 @@
+﻿gap_id,field_id,field_name_cn,gap_desc,gap_type,impact,affected_status,mitigation,owner,priority,status,target_date
+GAP-001,EXP-005,W（采购数量/份额）,企业采购数量、份额与 Unknown 份额无公开数据源,须用户提供,正式 Baseline 无法计算，风险敞口不可定,insufficient,Agent 请求用户补充；数据层只提供结构校验，不做均值替代,用户/F Agent,P0,待用户提供,随用户补充
+GAP-002,LOC-005,pfaf_id,Pfafstetter 流域编码尚未下载入库，geographic_mapping 中为空,上游无数据,无法与按 pfaf_id 组织的外部数据集直接对齐,partial,下载 HydroBASINS（level 3-6）后回填，接口不变仅换 data_release_id,宋梓铭/数据层,P0,进行中,2026-09-30
+GAP-003,HAZ-001,WS/SV/DR 基准值,当前为内部模拟值，未接入 WRI Aqueduct 真实发布值,上游无数据,数值不可用于正式结论,partial,接入 Aqueduct 4.0 并替换 SRC-DEMO-SIM，保持字段与接口不变,宋梓铭/数据层,P0,演示替代,2026-10-15
+GAP-004,FUT-001,future_ws / future_sv,仅提供 2030/2050，2080 缺失；且为情景演示值,上游无数据,2080 情景不可用,partial,接入 ISIMIP3b 情景数据补齐 2080；缺失年份显式返回 missing 而非插值,宋梓铭/数据层,P1,演示替代,2026-10-31
+GAP-005,EXT-002,spei_series,当前仅年度摘要，缺逐月 SPEI 原始序列,上游无数据,极端干旱峰值月份无法判定,partial,接入 SPEI Global Drought Monitor 逐月序列,宋梓铭/数据层,P1,演示替代,2026-10-31
+GAP-006,MAT-001,BWD/DYS/CTS/OA,材料参数无 C 组批准版本，现有值为数据层暂定释义,待C批准,材料参数不可用于正式结论,insufficient,登记 C 组批准版本号后由 mat_approval_version 控制放行；未批准一律 insufficient,C 组,P0,待C批准,待定
+GAP-007,META-003,data_status（V/P/A/S）,V/P/A/S 四类口径为数据层暂定，未经 D 冻结,待D冻结,不同小组对状态标记理解可能不一致,partial,在 field_dictionary.csv 内附口径说明，待 D 冻结后同步更新枚举,D 组,P0,待D冻结,待定
+GAP-008,EXT-004,drought_threshold,干旱阈值口径（SPEI<=-1.0）为暂定，未与 D/C 对齐,待D冻结,极端干旱频率口径可能不一致,partial,冻结后仅改元数据字段，数值重算单独发新版本,D 组,P1,待D冻结,待定
+GAP-009,PK-003,ws_peak_month/seasonality_index,峰值月与季节集中度为派生字段，派生规则未登记正式编号,待D冻结,派生口径不可追溯,partial,新增 proxy_rule_id / derivation_rule_id 并写入来源注册表,宋梓铭/数据层,P2,进行中,2026-09-30
+GAP-010,LOC-001,node_id 覆盖范围,当前仅 16 个节点，未覆盖用户可能查询的全部供应节点,上游无数据,查询命中率有限,insufficient,按用户提供的节点清单扩充 geographic_mapping，新增节点走同名接口,用户 + 宋梓铭,P1,进行中,滚动补充

@@ -1,0 +1,415 @@
+{
+  "run_id": "R20260909-003",
+  "input_hash": "5da0e1307c50cac0",
+  "enterprise_id": "COMPANY_DEMO",
+  "data_version": "water-data-v1.1",
+  "engine_version": "baseline-engine-1.2",
+  "formula_version": "path-matching-v1.1",
+  "parameter_version": "theta-equal-1/3;dys-map-v1;g-map-v1",
+  "theta": {
+    "WS": 0.3333333333333333,
+    "DR": 0.3333333333333333,
+    "SV": 0.3333333333333333
+  },
+  "calculated_at": "2026-09-09T09:39:41Z",
+  "status": "partial",
+  "calculation_mode": "partial",
+  "materials": [
+    {
+      "material": "甘蔗",
+      "U": 0.0,
+      "procurement_coverage": 1.0,
+      "scored_coverage": 0.35,
+      "unknown_share": 0.0,
+      "nodes": [
+        {
+          "node_id": "SC01",
+          "node_name": "广西崇左-江州-北海",
+          "W": 0.25,
+          "status_proc": "A",
+          "WS_norm": 0.744,
+          "SV_norm": 0.716,
+          "DR": 0.3,
+          "BWD": 0.75,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "OA": 0.8,
+          "Path_WS": 0.186,
+          "Path_DR": 0.05,
+          "Path_SV": 0.190933,
+          "R": 0.426933,
+          "C": 0.106733,
+          "node_status": "complete",
+          "missing_fields": [],
+          "proxy_fields": [],
+          "param_provenance": {
+            "BWD": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗正式参数)"
+            },
+            "DYS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "CTS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "OA": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗作物历)"
+            }
+          },
+          "confidence": {
+            "loc_water": "High",
+            "procurement": "Low",
+            "material_param": "Low",
+            "season": "Low",
+            "overall": "Low"
+          },
+          "rank": 1,
+          "contribution_share": 0.744895
+        },
+        {
+          "node_id": "SC02",
+          "node_name": "云南梁河",
+          "W": 0.1,
+          "status_proc": "A",
+          "WS_norm": 0.648,
+          "SV_norm": 0.624,
+          "DR": 0.35,
+          "BWD": 0.7,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "OA": 0.75,
+          "Path_WS": 0.1512,
+          "Path_DR": 0.058333,
+          "Path_SV": 0.156,
+          "R": 0.365533,
+          "C": 0.036553,
+          "node_status": "complete",
+          "missing_fields": [],
+          "proxy_fields": [],
+          "param_provenance": {
+            "BWD": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗正式参数)"
+            },
+            "DYS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "CTS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "OA": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗作物历)"
+            }
+          },
+          "confidence": {
+            "loc_water": "High",
+            "procurement": "Low",
+            "material_param": "Low",
+            "season": "Low",
+            "overall": "Low"
+          },
+          "rank": 2,
+          "contribution_share": 0.255105
+        },
+        {
+          "node_id": "SC03",
+          "node_name": "巴西中南部",
+          "W": 0.45,
+          "status_proc": "A",
+          "WS_norm": 0.57,
+          "SV_norm": 0.528,
+          "DR": 0.25,
+          "BWD": 0.65,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "OA": null,
+          "Path_WS": 0.1235,
+          "Path_DR": 0.041667,
+          "Path_SV": null,
+          "R": null,
+          "C": null,
+          "node_status": "partial",
+          "missing_fields": [
+            "OA"
+          ],
+          "proxy_fields": [],
+          "param_provenance": {
+            "BWD": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗正式参数)"
+            },
+            "DYS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "CTS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "OA": {
+              "data_status": null,
+              "source_ref": null
+            }
+          },
+          "confidence": {
+            "loc_water": "Medium",
+            "procurement": "Low",
+            "material_param": "Low",
+            "season": "Unknown",
+            "overall": "Unknown"
+          },
+          "rank": null,
+          "contribution_share": null
+        },
+        {
+          "node_id": "SC04",
+          "node_name": "泰国东北部",
+          "W": 0.12,
+          "status_proc": "A",
+          "WS_norm": 0.702,
+          "SV_norm": 0.75,
+          "DR": 0.28,
+          "BWD": 0.7,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "OA": null,
+          "Path_WS": 0.1638,
+          "Path_DR": 0.046667,
+          "Path_SV": null,
+          "R": null,
+          "C": null,
+          "node_status": "partial",
+          "missing_fields": [
+            "OA"
+          ],
+          "proxy_fields": [],
+          "param_provenance": {
+            "BWD": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗正式参数)"
+            },
+            "DYS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "CTS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "OA": {
+              "data_status": null,
+              "source_ref": null
+            }
+          },
+          "confidence": {
+            "loc_water": "Medium",
+            "procurement": "Low",
+            "material_param": "Low",
+            "season": "Unknown",
+            "overall": "Unknown"
+          },
+          "rank": null,
+          "contribution_share": null
+        },
+        {
+          "node_id": "SC05",
+          "node_name": "古巴中部",
+          "W": 0.04,
+          "status_proc": "A",
+          "WS_norm": 0.612,
+          "SV_norm": 0.582,
+          "DR": 0.22,
+          "BWD": 0.6,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "OA": null,
+          "Path_WS": 0.1224,
+          "Path_DR": 0.036667,
+          "Path_SV": null,
+          "R": null,
+          "C": null,
+          "node_status": "partial",
+          "missing_fields": [
+            "OA"
+          ],
+          "proxy_fields": [],
+          "param_provenance": {
+            "BWD": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗正式参数)"
+            },
+            "DYS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "CTS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "OA": {
+              "data_status": null,
+              "source_ref": null
+            }
+          },
+          "confidence": {
+            "loc_water": "Medium",
+            "procurement": "Low",
+            "material_param": "Low",
+            "season": "Unknown",
+            "overall": "Unknown"
+          },
+          "rank": null,
+          "contribution_share": null
+        },
+        {
+          "node_id": "SC06",
+          "node_name": "澳大利亚昆士兰",
+          "W": 0.04,
+          "status_proc": "A",
+          "WS_norm": 0.816,
+          "SV_norm": 0.474,
+          "DR": 0.42,
+          "BWD": 0.8,
+          "DYS": 0.5,
+          "CTS": 1.0,
+          "OA": null,
+          "Path_WS": 0.2176,
+          "Path_DR": 0.07,
+          "Path_SV": null,
+          "R": null,
+          "C": null,
+          "node_status": "partial",
+          "missing_fields": [
+            "OA"
+          ],
+          "proxy_fields": [],
+          "param_provenance": {
+            "BWD": {
+              "data_status": "A",
+              "source_ref": "演示假设值(待C岗正式参数)"
+            },
+            "DYS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "CTS": {
+              "data_status": "A",
+              "source_ref": "演示评分(待C岗复核)"
+            },
+            "OA": {
+              "data_status": null,
+              "source_ref": null
+            }
+          },
+          "confidence": {
+            "loc_water": "Medium",
+            "procurement": "Low",
+            "material_param": "Low",
+            "season": "Unknown",
+            "overall": "Unknown"
+          },
+          "rank": null,
+          "contribution_share": null
+        }
+      ],
+      "missing_fields": [
+        {
+          "node_id": "SC03",
+          "field": "OA"
+        },
+        {
+          "node_id": "SC04",
+          "field": "OA"
+        },
+        {
+          "node_id": "SC05",
+          "field": "OA"
+        },
+        {
+          "node_id": "SC06",
+          "field": "OA"
+        }
+      ],
+      "proxy_fields": [],
+      "excluded_nodes": [],
+      "warnings": [
+        "4/6 个活动节点参数不完整；PRWI 仅覆盖 scored_coverage=0.35 的采购权重，非完整组合值"
+      ],
+      "assumptions": [],
+      "status": "partial",
+      "PRWI": 0.143286,
+      "PRWI_lower": 0.143286,
+      "PRWI_upper": 0.143286,
+      "path_contribution": {
+        "WS": 0.143286,
+        "DR": 0.143286,
+        "SV": 0.143286
+      },
+      "path_share": {
+        "WS": 1.0,
+        "DR": 1.0,
+        "SV": 1.0
+      },
+      "top_nodes": [
+        {
+          "node_id": "SC01",
+          "node_name": "广西崇左-江州-北海",
+          "C": 0.106733,
+          "share": 0.744895
+        },
+        {
+          "node_id": "SC02",
+          "node_name": "云南梁河",
+          "C": 0.036553,
+          "share": 0.255105
+        }
+      ],
+      "procurement_HHI": 0.0725,
+      "risk_HHI": 0.619947,
+      "overall_confidence": "Low",
+      "calculation_mode": "partial"
+    }
+  ],
+  "missing_fields": [
+    {
+      "node_id": "SC03",
+      "field": "OA"
+    },
+    {
+      "node_id": "SC04",
+      "field": "OA"
+    },
+    {
+      "node_id": "SC05",
+      "field": "OA"
+    },
+    {
+      "node_id": "SC06",
+      "field": "OA"
+    }
+  ],
+  "proxy_fields": [],
+  "excluded_nodes": [],
+  "warnings": [
+    "甘蔗: partial，4/6 个活动节点参数不完整；PRWI 仅覆盖 scored_coverage=0.35 的采购权重，非完整组合值"
+  ],
+  "assumptions": [],
+  "source_refs": [
+    "演示假设值(待C岗作物历)",
+    "演示假设值(待C岗正式参数)",
+    "演示评分(待C岗复核)"
+  ],
+  "summary": {
+    "materials_total": 1,
+    "materials_success": 0,
+    "materials_partial": 1,
+    "materials_insufficient": 0
+  }
+}
